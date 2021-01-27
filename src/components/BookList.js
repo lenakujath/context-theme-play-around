@@ -4,28 +4,22 @@ import { ThemeContext } from '../context/ThemeContext';
 class BookList extends Component {
 
     static contextType = ThemeContext;
-    state = {
 
-    }
+    // state = {};
 
     render() {
 
         const {isLightTheme, light, dark} = this.context;
         const theme = isLightTheme ? light : dark;
+
         return (
-
-
         <div className='book-list' style={{color: theme.syntax, background: theme.bg}}>
             <ul>
-                <li style={{background: theme.ui}}>How innovation works</li>
-                <li style={{background: theme.ui}}>The Glass Bead Game</li>
-                <li style={{background: theme.ui}}>The Way of Things</li>
-            </ul> 
-
-           
+                <li style={{background: theme.ui}}>A book</li>
+                <li style={{background: theme.ui}}>Another book</li>
+                <li style={{background: theme.ui}}>And another book</li>
+            </ul>   
         </div>
-
-
    )
   }
 }
