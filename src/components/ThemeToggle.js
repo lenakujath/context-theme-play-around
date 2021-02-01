@@ -6,7 +6,7 @@ class ThemeToggle extends React.Component {
 
   static contextType= ThemeContext;
 
-  render() {
+  render () {
 
   const { toggleTheme } = this.context;
 

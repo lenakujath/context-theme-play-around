@@ -5,7 +5,7 @@ import ThemeContextProvider from './context/ThemeContext';
 import ThemeToggle from './components/ThemeToggle';
 
 
-function App() {
+function App () {
   
   return (
     <div className="App">

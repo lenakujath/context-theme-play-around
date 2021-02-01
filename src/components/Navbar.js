@@ -6,9 +6,9 @@ class Navbar extends Component {
 
     static contextType = ThemeContext;
 
-    state = {
+    // state = {
 
-    }
+    // }
 
     render() {
 
